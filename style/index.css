@@ -1,1 +1,59 @@
 /* CSS stillerinizi buraya girin */
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 10px 150px;
+  background-color: grey;
+}
+
+header nav a {
+  background-color: white;
+  color: black;
+}
+
+header nav a:hover {
+  background-color: black;
+  color: white;
+}
+main {
+  display: flex;
+}
+
+.container-anaekran {
+  display: flex;
+}
+.container-resim {
+  display: flex;
+}
+.container-proje {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.container-proje a {
+  min-width: 5rem;
+  background-color: #393e46;
+  color: #eeeeee;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.container-fotolar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.fotolardivi img {
+  width: 50%;
+}
+
+.fotolardivi {
+  width: 21%;
+  text-align: center;
+  padding-bottom: 2%;
+}
